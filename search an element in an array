@@ -1,0 +1,17 @@
+#to search an element in an array
+#using function
+def search(arr,x):
+  for i in range (len(arr)):
+    if arr[i] == x:
+      return i
+  return -1
+#to input array from user 
+arr = []
+n = int(input("enter range"))
+print("enter array elements")
+for i in range(n):
+  ele = int(input())
+  arr.append(ele)
+x = int(input("enter search element"))
+#display output
+print("element is found at index"+str(search(arr,x)))
