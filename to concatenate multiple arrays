@@ -1,0 +1,18 @@
+#to concatenate multiple arrays
+#input arrays
+arr1 = []
+arr2 = []
+n = int(input("enter range of arr1"))
+m = int(input("enter range of arr2"))
+print("enter elements of array1")
+for i in range(n):
+  ele = int(input())
+  arr1.append(ele)
+print("enter elements of array 2")
+for i in range(m):
+  elem = int(input())
+  arr1.append(elem)
+#logic begin here
+arr1 = arr1+arr2
+#display output
+print("concatenation of two arrays is"+str(arr1))
